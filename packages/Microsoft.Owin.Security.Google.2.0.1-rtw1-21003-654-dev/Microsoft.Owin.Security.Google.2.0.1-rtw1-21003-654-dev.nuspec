@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Owin.Security.Google</id>
+    <version>2.0.1-rtw1-21003-654-dev</version>
+    <title>Microsoft.Owin.Security.Google  (nightly 2013 Oct 03)</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm</licenseUrl>
+    <projectUrl>http://katanaproject.codeplex.com/</projectUrl>
+    <iconUrl>https://nugetgallery.blob.core.windows.net/icons/Microsoft.Owin.Security.Google.2.0.1-rtw1-21003-654-dev.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Middleware that enables an application to support Google's OpenId authentication workflow.</description>
+    <summary>Middleware that enables an application to support Google's OpenId authentication workflow.</summary>
+    <tags>Microsoft OWIN</tags>
+    <dependencies>
+      <dependency id="Owin" version="1.0" />
+      <dependency id="Microsoft.Owin" version="2.0.1-rtw1-21003-654-dev" />
+      <dependency id="Microsoft.Owin.Security" version="2.0.1-rtw1-21003-654-dev" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Net.Http.WebRequest" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
